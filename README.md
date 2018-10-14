@@ -8,7 +8,10 @@ Part2 includes performing a grid search on (p,d,q) values, fitting the data with
 
 Part3 includes performing a grid search on feasible (p,d,q) values, loading their fitting data (from part2 results), selecting K random start locations for estimation window, applying the ARIMA(p,d,q) model to the window, estimating the value of bitcoin price for the next day, and saving the MSE results.
 
+The datan.csv contains the bitcoin price table (closing price in USD) for a priod od 3 years, from 01-09-2015 to 31-08-2018.
+
 The auxiliary data files contain the results of fitting different (p,d,q) tuples to the data.
+
 
 
 
